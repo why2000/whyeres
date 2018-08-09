@@ -1,2 +1,0 @@
-# whyeres
-whyeres' summer training
