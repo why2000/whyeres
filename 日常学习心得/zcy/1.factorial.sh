@@ -12,6 +12,7 @@ function factorial(){ # common algorithm
         factorial `expr $n - 1 `
         #return `expr $n \* $? `
         newReturn=`expr $n \* $newReturn `
+        #newReturn=`./a.out $n $newReturn`
         # expr has a upper bound, it give an error when n >= 21
         # I suppose it's due to the data type
         # maybe I should use python to calculate :(
