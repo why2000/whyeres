@@ -1,5 +1,5 @@
 #!/bin/bash
-# self-compression according to the filename suffix
+# display or edit ip/mask
 # author: mani
 
 interface="eth0"
@@ -14,9 +14,9 @@ then
 elif [ $1 == "--help" ]
 then
     printf "%-6s %s\n" Usage: "--select [interface]"
-    printf "%-10s %s\n" "" "select specific interface, eth0 as deafault"
+    printf "%-10s %s\n" "" "select specific interface, eth0 as default"
     printf "%-6s %s\n" "" "--ip [ip address]"
-    printf "%-10s %s\n" "" "--set new ip"
+    printf "%-10s %s\n" "" "set new ip"
     printf "%-6s %s\n" "" "--mask [mask address]"
     printf "%-10s %s\n" "" "set new mask"
 else
